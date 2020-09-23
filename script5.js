@@ -69,7 +69,7 @@ largo=arr.length/2;
 lar=largo-1;
  if (arr.length %2 ==0)
     {
-        alert(" Los Elementos De la Mitad Son   "+ arr[lar] +" y "+ arr[largo])
+        alert(" El Arreglo es:  "+ arr+   "\n Los Elementos De la Mitad Son   "+ arr[lar] +" y "+ arr[largo])
         
         
     }   
