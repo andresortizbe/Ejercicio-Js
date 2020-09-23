@@ -9,21 +9,28 @@
 var cantidad;
 var largo,lar =0;
 var arr = new Array(cantidad);
-cantidad=prompt('Ingrese cantidad de numeros a leer:','');
 
+//obtener el arreglo
+cantidad=prompt('Ingrese cantidad de numeros a leer:','');
+// ciclo lectura del array
 for(var i=0;i<cantidad;i++)
     {
       arr[i]=prompt('Ingrese Numero a leer:  '+ (i+1) ,'');
     }
+// obtengo el tamaño del array y divido en 2
 
 largo=arr.length/2;
+//obtener el valor del hermano a la izquierda en el array por el tema de que inician en 0
 lar=largo-1;
- if (arr.length %2 ==0)
+
+//obtengo el residuo y presento resultados
+if (arr.length %2 ==0)
     {
         alert(" El Arreglo es:  "+ arr+   " Los Elementos De la Mitad Son   "+ arr[lar] +" y "+ arr[largo])
         
         
     }   
+// si el residuo es diferente de cero pus presento el elemento de la mitad 
  if (arr.length %2 !=0)
     {   lar=arr.length/2;
         largo= Math.trunc(lar); 
