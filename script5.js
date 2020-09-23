@@ -1,7 +1,7 @@
 function menu()
 {
 
-    cantidad=prompt("Ingrese:  \n1. Suma Numeros Array \n2. Numero En La Mitad del Array\n3. Ejercicio Arreglo Academlo\n4.sum of all the multiples of 3 or 5 below 1000 ");
+    cantidad=prompt("Ingrese:  \n1. Suma Numeros Array \n2. Numero En La Mitad del Array\n3. Ejercicio Arreglo Academlo\n4. sum of all the multiples of 3 or 5 below 1000 ");
     
     if (cantidad==1)
        {
