@@ -76,7 +76,7 @@ lar=largo-1;
  if (arr.length %2 !=0)
     {   lar=arr.length/2;
         largo= Math.trunc(lar); 
-        alert(" El Elemento De la Mitad es   "+ arr[largo] );   
+        alert(" El Elemento De la Mitad es    "+ arr[largo] );   
     }   
 
     menu();
